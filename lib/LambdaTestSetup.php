@@ -18,9 +18,9 @@ class LambdaTestSetup extends PHPUnit\Framework\TestCase{
 	$capabilities = array(
 		"build" => "Sample PHPUnit Build",
 		"name" => "Sample PHPUnit Test",
-		"platform" => "Windows 10",
-		"browserName" => "Chrome",
-		"version" => "latest"
+		"deviceName" => "iPad (5th generation)",
+		"browserName" => "Safari",
+		"platformVersion" => "10.3"
      );	
 		
 		self::$driver = RemoteWebDriver::create($url, $capabilities); 		
